@@ -54,6 +54,7 @@ So, we used kprobe to monitor deactivate_task() and activate_task() functions to
         unsigned long stack_entries[MAX_STACK]; /* stack entries */
     };
 
+![alt text](https://github.com/RandallDW/Latency_Profiler/blob/master/blank_diagram.png "hash_key blank diagram")
 #### Timer/PID Hash Table
     struct pid_hash_node {
         struct hlist_node hash; 
