@@ -1,7 +1,7 @@
 # Latency Profiler
 
 ## Introduction
-In this project, we developed a latency profiler, which measures and accumulates time that a task starts sleep and wakes up. A task would sleep due to various reasons including blocking IO operations (e.g., disk, network) or contention on synchronization primitives (e.g., mutex, semaphore). In many cases, such long sleeping causes high latency in application behavior. Our latency profiler helps to find such latency bottleneck by measuring sleeping time of all tasks in a system.
+In this project, I developed a latency profiler, which measures and accumulates time that a task starts sleep and wakes up. A task would sleep due to various reasons including blocking IO operations (e.g., disk, network) or contention on synchronization primitives (e.g., mutex, semaphore). In many cases, such long sleeping causes high latency in application behavior. This latency profiler helps to find such latency bottleneck by measuring sleeping time of all tasks in a system.
 
 ## Running Environment
     * Linux Kernel v4.12
